@@ -40,18 +40,17 @@ logger = logging.getLogger(__name__)
 user_semaphores = {}
 user_tasks = {}
 
-HELP_MESSAGE = """Commands:
-⚪ /retry – Regenerate last bot answer
-⚪ /new – Start new dialog
-⚪ /mode – Select chat mode
-⚪ /settings – Show settings
-⚪ /balance – Show balance
-⚪ /help – Show help
+HELP_MESSAGE = """الاوامر:
+⚪ /retry – اعادة انشاء الروبوت الاخيره
+⚪ /new – بدء كلام جديد
+⚪ /mode – حدد وضع الدردشه
+⚪ /settings – اضهار الاعدادات
+⚪ /balance – اضهار التوازن
+⚪ /help – المساعده
 
-🎨 Generate images from text prompts in <b>👩‍🎨 Artist</b> /mode
-👥 Add bot to <b>group chat</b>: /help_group_chat
-🎤 You can send <b>Voice Messages</b> instead of text
-"""
+🎨 قم بانشاؤ صور من مطالبات نصيه في <b>👩‍🎨 Artist</b> /mode
+👥 اضف البوت الى <b>الدردشه الجماعيه</b>: /help_group_chat
+🎤 يمكنك ارسال <b>رسائل صوتيه</b> بدلا من رسائل النصيه
 
 HELP_GROUP_CHAT_MESSAGE = """You can add bot to any <b>group chat</b> to help and entertain its participants!
 
